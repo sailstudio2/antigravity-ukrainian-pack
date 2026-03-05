@@ -1,0 +1,33 @@
+{
+    "name": "antigravity-ukrainian-pack",
+    "displayName": "Ukrainian Language Pack for Antigravity IDE",
+    "description": "Повний українізатор для Antigravity IDE із перекладом унікальних компонентів.",
+    "version": "1.0.3",
+    "publisher": "sailstudio",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Language Packs"
+    ],
+    "contributes": {
+        "localizations": [
+            {
+                "languageId": "uk",
+                "languageName": "Ukrainian",
+                "localizedLanguageName": "Українська",
+                "translations": [
+                    {
+                        "id": "vscode",
+                        "path": "./translations/main.i18n.json"
+                    },
+                    {
+                        "id": "google.antigravity",
+                        "path": "./translations/antigravity.uk.json"
+                    }
+                ]
+            }
+        ]
+    }
+}
